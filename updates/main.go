@@ -208,6 +208,15 @@ func DisableUpdateSchedule() error {
 }
 
 func checkForUpdates(ctx context.Context) (err error) {
+	// Set correct error if context was canceled.
+	defer func() {
+		select {
+		case <-ctx.Done():
+			err = context.Canceled
+		default:
+		}
+	}()
+
 	if !forceUpdate.SetToIf(true, false) && !enableUpdates() {
 		log.Warningf("updates: automatic updates are disabled")
 		return nil
