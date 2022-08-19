@@ -300,6 +300,8 @@ github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5Kwzbycv
 github.com/fatih/color v1.9.0/go.mod h1:eQcE1qtQxscV5RaZvpXrrb8Drkc3/DdQ+uUYCNjL+zU=
 github.com/fatih/color v1.13.0/go.mod h1:kLAiJbzzSOZDVNGyDpeOxJ47H46qBXwg5ILebYFFOfk=
 github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=
+github.com/florianl/go-conntrack v0.3.0 h1:DUY84Mce+/lE9dJi2EWvGYacQtX2X96J9aVWV99l8UE=
+github.com/florianl/go-conntrack v0.3.0/go.mod h1:Q+Um4J/nWUXSbnyzQRMOP4eweSeEQ2G8sfCO5gMz6Pw=
 github.com/florianl/go-nfqueue v1.3.0/go.mod h1:sA7IQtpB3zxpdwJ4y4999SjK+1lx91TEqBBB4CIlFX0=
 github.com/florianl/go-nfqueue v1.3.1 h1:khQ9fYCrjbu5CF8dZF55G2RTIEIQRI0Aj5k3msJR6Gw=
 github.com/florianl/go-nfqueue v1.3.1/go.mod h1:aHWbgkhryJxF5XxYvJ3oRZpdD4JP74Zu/hP1zuhja+M=
